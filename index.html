@@ -20,6 +20,10 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style type="text/css">
+			.left {text-align: left;}
+			.small {font-size: 65% !important;}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -39,7 +43,18 @@
 				<section>
 					<section data-markdown="slides/9.tdd_says.md"></section>
 					<section data-markdown="slides/10.tdd_says.md"></section>
+					<section data-markdown="slides/11.tdd_says.md"></section>
 				</section>
+				<section data-markdown="slides/12.kind_of_tests.md"></section>
+				<section>
+					<section data-markdown="slides/13.my_tools_mocha.md"></section>
+					<section data-markdown="slides/14.my_tools_chai.md"></section>
+					<section data-markdown="slides/15.my_tools_sinon.md"></section>
+					<section data-markdown="slides/16.my_tools_supertest.md"></section>
+					<section data-markdown="slides/17.my_tools_istanbul.md"></section>
+					<section data-markdown="slides/18.my_tools_gulp.md"></section>
+				</section>
+				
 			</div>
 		</div>
 
