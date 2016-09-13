@@ -21,14 +21,17 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 		<style type="text/css">
-			.left {text-align: left;}
+			.left {text-align: left; float: left;}
 			.small {font-size: 65% !important;}
 		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="slides/1.home.md"></section>
+				<section>
+					<section data-markdown="slides/1.home.md"></section>
+					<section data-transition="zoom" data-markdown="slides/who-am-i.md"></section>
+				</section>
 				<section>
 					<section data-markdown="slides/2.why.md"></section>
 					<section data-markdown="slides/3.why.md"></section>
